@@ -1,0 +1,129 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  background-color: black;
+}
+
+.weather {
+  max-width: 90%;
+  width: 380px;
+  height: 500px;
+  margin: auto;
+  margin-top: 20vh;
+  padding: 7px;
+  border-radius: 7px;
+  background:tomato;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(0px);
+  border: 1px solid rgba(229, 13, 180, 0.14);
+}
+.weather:hover{
+  box-shadow: 0 0 7px 7px  rgba(11, 12, 11, 0.59);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4px;
+}
+
+.container .input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+}
+
+.container .input input {
+  height: 50px;
+  width: 230px;
+  border-radius: 12px;
+  margin-right: 3px;
+  padding: 0px 6px;
+  background: rgba(230, 211, 227, 1);
+  font-size: 18px;
+  font-weight: 600;
+  color: black;
+}
+.container .input input:hover{
+  box-shadow: 0 0 7px 7px rgba(14, 15, 15, 0.5);
+}
+
+.container .input button {
+  height: 48px;
+  width: 48px;
+  border-radius: 50%;
+  background: rgba(2, 253, 65, 0.99);
+
+}
+.container .input button i{
+  font-size: 20px;
+  color: black;
+}
+.container .input button:hover{
+  box-shadow: 0 0 7px 7px rgba(14, 15, 15, 0.5);;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px 0px;
+}
+
+.info img {
+  width: 155px;
+  border-radius: 45px;
+}
+
+.info h2 {
+  font-size: 40px;
+}
+
+.info h3 {
+  font-size: 30px;
+}
+
+.detail {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+  width: 270px;
+}
+
+.detail .humidity {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.detail .humidity i {
+  font-size: 45px;
+  margin-right: 3px;
+}
+
+.detail .humidity .humidity-details .humidity-percent {
+  font-size: 24px;
+}
+
+.detail .wind {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.detail .wind i {
+  font-size: 45px;
+  margin-right: 3px;
+}
+
+.detail .wind .wind-details .wind-speed {
+  font-size: 24px;
+}
